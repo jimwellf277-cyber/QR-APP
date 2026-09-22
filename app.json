@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "QR Attendance",
+    "slug": "qr-attendance",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "qrattendance",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "plugins": ["expo-router", ["expo-camera", { "cameraPermission": "Allow QR Attendance to scan event QR codes." }], "expo-secure-store"],
+    "experiments": { "typedRoutes": true },
+    "ios": { "supportsTablet": true },
+    "android": { "adaptiveIcon": { "backgroundColor": "#FFF9E8" }, "edgeToEdgeEnabled": true },
+    "web": { "bundler": "metro" }
+  }
+}
